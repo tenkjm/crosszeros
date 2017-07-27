@@ -9,9 +9,9 @@ namespace CrossZeros.Models
     {
         public System.DateTime Created  { get; set; }
         public int Id { get; set; }
-        public int UserCrossId { get; set; }
-        public int UserZeroId { get; set; }
-        public GameState state { get; set; }
+        public String UserCrossId { get; set; }
+        public String UserZeroId { get; set; }
+        public int GameStateID { get; set; }
         public bool isFinished { get; set; }
         public bool isCrossTurn { get; set; }
     }

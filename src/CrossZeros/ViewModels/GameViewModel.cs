@@ -9,7 +9,7 @@ namespace CrossZeros.ViewModels
     {
         public System.DateTime Created { get; set; }
         public int Id { get; set; }
-        public int UserZeroId { get; set; }
+        public string UserZeroId { get; set; }
         public bool isFinished { get; set; }
         public bool isCrossTurn { get; set; }
     }

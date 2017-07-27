@@ -11,7 +11,7 @@ namespace CrossZeros.Models
         }
 
         public DbSet<Game> Games { get; set; }
-        public DbSet<Game> GameStates { get; set; }
+        public DbSet<GameState> GameStates { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

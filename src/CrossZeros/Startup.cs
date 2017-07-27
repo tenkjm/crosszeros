@@ -70,7 +70,7 @@ namespace CrossZeros
             });
 
             services.AddLogging();
-                  
+            services.AddScoped<IGameProcessor, MSSQLGameProcessor>();               
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -84,8 +84,9 @@ namespace CrossZeros
 
             Mapper.Initialize(config =>
             {
-                config.CreateMap<Game, GameStateViewModel>().ReverseMap();
-                config.CreateMap<GameState, GameViewModel>().ReverseMap();
+                config.CreateMap<Game, GameViewModel>().ReverseMap();
+                config.CreateMap<GameState, GameStateViewModel>().ReverseMap();
+                
             });
 
             app.UseMvc(routes =>
