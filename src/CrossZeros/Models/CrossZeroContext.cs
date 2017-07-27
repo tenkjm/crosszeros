@@ -10,8 +10,8 @@ namespace CrossZeros.Models
             Database.EnsureCreated();
         }
 
-        public DbSet<Game> Games { get; set; }
-        public DbSet<GameState> GameStates { get; set; }
+        public DbSet<Game> Game { get; set; }
+        public DbSet<GameState> GameState { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

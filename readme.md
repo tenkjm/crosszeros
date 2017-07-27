@@ -64,3 +64,8 @@ GameId - идентификатор игры
 
 http://localhost:5000/api/crosszeros/move?row=1&column=1&GameId=1
 
+
+##Для получения состояния игры
+
+http://localhost:5000.api/crosszeros/gamestate?gameID=1
+

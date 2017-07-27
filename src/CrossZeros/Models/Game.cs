@@ -11,7 +11,7 @@ namespace CrossZeros.Models
         public int Id { get; set; }
         public String UserCrossId { get; set; }
         public String UserZeroId { get; set; }
-        public int GameStateID { get; set; }
+        public int StateID { get; set; }
         public bool isFinished { get; set; }
         public bool isCrossTurn { get; set; }
     }

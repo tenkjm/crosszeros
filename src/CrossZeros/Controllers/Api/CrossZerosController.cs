@@ -39,7 +39,14 @@ namespace CrossZeros.Controllers.Api
             Response.StatusCode = (int)HttpStatusCode.Forbidden;
             return Json("Cannot create new game");
         }
-
+        [Authorize]
+        [Route("api/crosszeros/gamestate")]
+        public JsonResult GetGameState(int gameId)
+        {
+           
+                return Json(_gameProcessor.GetGameState(gameId));
+           
+        }
         [Authorize]
         [Route("api/crosszeros/mygames")]
         public JsonResult GetAllMyGames()

@@ -14,5 +14,6 @@ namespace CrossZeros
         bool MakeMove(int row, int column, int GameId, CrossZeroUser user);
         bool IsFieldValid(int fildNum);
         IEnumerable<Game> GetAllMyGames(CrossZeroUser user);
+        string GetGameState(int GameId);
     }
 }
