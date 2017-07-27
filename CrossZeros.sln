@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0BBE89BB-AF80-434C-B0F7-4566C7C7F2DF}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CrossZeros", "src\CrossZeros\CrossZeros.xproj", "{BEC7DF88-F22B-4082-A1C7-2B230D3FA1DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEC7DF88-F22B-4082-A1C7-2B230D3FA1DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEC7DF88-F22B-4082-A1C7-2B230D3FA1DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEC7DF88-F22B-4082-A1C7-2B230D3FA1DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEC7DF88-F22B-4082-A1C7-2B230D3FA1DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BEC7DF88-F22B-4082-A1C7-2B230D3FA1DD} = {0BBE89BB-AF80-434C-B0F7-4566C7C7F2DF}
+	EndGlobalSection
+EndGlobal

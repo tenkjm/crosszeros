@@ -1,0 +1,8 @@
+﻿{
+    "ConnectionStrings": {
+        "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=crossZeros;Trusted_Connection=True;MultipleActiveResultSets=true"
+    },
+    "AppSettings": {
+        "SiteEmailAddress": "atour07@yandex.ru"
+    }
+}
